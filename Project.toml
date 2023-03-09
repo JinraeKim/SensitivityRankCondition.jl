@@ -1,0 +1,13 @@
+name = "SERC"
+uuid = "713b81e2-6747-41cf-8c92-2c171e94ab1f"
+authors = ["JinraeKim <kjl950403@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
