@@ -1,4 +1,4 @@
-name = "SERC"
+name = "SensitivityRankCondition"
 uuid = "713b81e2-6747-41cf-8c92-2c171e94ab1f"
 authors = ["JinraeKim <kjl950403@gmail.com> and contributors"]
 version = "0.1.0"
