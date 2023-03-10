@@ -19,8 +19,8 @@ function sensitivity_matrix_lsa(
     ∂f_∂u(x, u) = ForwardDiff.jacobian(u -> f(x, u), u)
     function dynamics(X, :, t)
         (; x, x_xN) = X
-        x_xN_dot = -∂f_∂x(x, u(t))' * x_xN
         x_dot = f(x, u(t))
+        x_xN_dot = -∂f_∂x(x, u(t))' * x_xN
         X_dot = ComponentArray(x=x_dot, x_xN=x_xN_dot)
         return X_dot
     end
