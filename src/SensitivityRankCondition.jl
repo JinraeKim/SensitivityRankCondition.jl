@@ -1,4 +1,4 @@
-module SERC
+module SensitivityRankCondition
 
 
 using ForwardDiff
