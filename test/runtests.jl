@@ -2,5 +2,6 @@ using SERC
 using Test
 
 @testset "SERC.jl" begin
-    # Write your tests here.
+    include("local_strong_accessibility.jl")
+    include("split_svdvals.jl")
 end
