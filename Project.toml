@@ -3,7 +3,16 @@ uuid = "713b81e2-6747-41cf-8c92-2c171e94ab1f"
 authors = ["JinraeKim <kjl950403@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
 [compat]
+ComponentArrays = "0.13"
+ForwardDiff = "0.10"
+OrdinaryDiffEq = "6.49"
 julia = "1"
 
 [extras]
